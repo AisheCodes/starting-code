@@ -18,7 +18,7 @@ By completing this lab, you will:
 
 ## Getting Started
 
-1. Clone the Repository to have it locally
+1. Fork/Clone the Repository to have it locally
 2. Open the HTML file in a code editor (VS Code)
 3. Examine the HTML structure of each component
 4. Write CSS rules in the provided style file
@@ -130,6 +130,6 @@ If you finish early, try these additional challenges:
 
 ## Submission
 
-Submit your completed HTML file with all CSS implemented. Include a brief document explaining your design decisions and any challenges you faced.
+Submit your completed HTML file with all CSS implemented on GitHub. Include a brief document explaining your design decisions and any challenges you faced.
 
 Good luck, and have fun styling!
