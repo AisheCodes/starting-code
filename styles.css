@@ -3,9 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 
 :root {
+  --four:#124170;
+  --three:#26667F;
+  --two:#67C090;
+  --one:#DDF4E7;
   --primary: #4361ee;
   --secondary: #3a0ca3;
   --success: #4cc9f0;
@@ -87,42 +93,63 @@ p {
 .dark-theme .form-input,
 .dark-theme .form-select,
 .dark-theme .form-textarea {
+  background-color: #ffffff;
+  color: #000000;
+  border-color:white ;
   /* TODO: Add dark theme form control styles */
   /* HINT: Use background-color, color, and border-color */
 }
 
 .dark-theme .table th {
+  background-color:rgb(255, 255, 255);
+  color:rgb(27, 27, 27);
   /* TODO: Add dark theme table header styles */
   /* HINT: Use background-color */
 }
 
 .dark-theme .code-editor {
+  background-color:white ;
   /* TODO: Add dark theme code editor styles */
   /* HINT: Use background-color */
 }
 
 /* Card Styles */
 .card {
+  border-radius: 5%;
+  background-color: rgba(67, 97, 238, 0.05);
+  
+ 
+  
   /* TODO: Add card styles */
   /* HINT: Use background-color, border-radius, box-shadow, transition */
 }
 
 .card:hover {
+  box-shadow: 5px 5px 5px var(--primary);
+  
   /* TODO: Add hover styles for card */
   /* HINT: Use transform and box-shadow */
 }
 
 .card-img {
+  padding: 4%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  
   /* TODO: Add card image styles */
   /* HINT: Set width, height, and object-fit */
 }
 
 .card-content {
+  padding: 20px;
   /* TODO: Add card content styles */
   /* HINT: Add padding */
 }
 
 .card-title {
+  font-size: x-large;
+  color: var(--primary);
   /* TODO: Add card title styles */
   /* HINT: Set font-size, margin, and color */
 }
@@ -134,6 +161,9 @@ p {
 
 /* Button Styles */
 .btn {
+color: #000000;
+border-radius: 10%;
+transition: ;
   /* TODO: Add button styles */
   /* HINT: Use display, padding, background-color, color, border, border-radius, cursor, transition */
 }
